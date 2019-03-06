@@ -22,5 +22,5 @@ Quick start
 
 3. Include the staticpages URLconf in your project urls.py like this::
 
-    path('', include('polls.urls')),
+    path('', include('staticpages.urls')),
 
