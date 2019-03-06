@@ -11,12 +11,11 @@ setup(
     name='django-staticpages',
     version='0.1',
     packages=find_packages(),
-Markdown
     include_package_data=True,
     license='BSD License',  # example license
     description='A simple Django app to generate pages from files.',
     long_description=README,
-    url='https://www.example.com/',
+    url='https://github.com/marcanuy/django-staticpages/',
     author='Marcelo Canina',
     author_email='me@marcanuy.com',
     classifiers=[
@@ -38,5 +37,9 @@ Markdown
         'Source': 'https://github.com/marcanuy/django-staticpages/',
         'Tracker': 'https://github.com/marcanuy/django-staticpages/issues',
     },
+    install_requires=[
+        'Django>=2.1',
+        'Markdown'
+    ],
 
 )
