@@ -11,6 +11,7 @@ setup(
     name='django-staticpages',
     version='0.1',
     packages=find_packages(),
+Markdown
     include_package_data=True,
     license='BSD License',  # example license
     description='A simple Django app to generate pages from files.',
@@ -31,4 +32,11 @@ setup(
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
+    keywords='django static',
+    project_urls={
+        #'Documentation': 'https://packaging.python.org/tutorials/distributing-packages/',
+        'Source': 'https://github.com/marcanuy/django-staticpages/',
+        'Tracker': 'https://github.com/marcanuy/django-staticpages/issues',
+    },
+
 )
