@@ -1,7 +1,7 @@
-StaticPages
+MdPages - Markdown Pages
 =====
 
-Staticpages is a simple Django app to generate pages from Markdown files.
+Mdpages is a simple Django app to generate pages from Markdown files.
 
 Pages also can have a Table of Content automatically generated based
 on headings.
@@ -12,22 +12,22 @@ Quick start
 Supposing you want to create an **About** page, having the markdown
 file at `/pages/content/about.md`.
 
-1. Add "staticpages" to your INSTALLED_APPS setting like this:
+1. Add "mdpages" to your INSTALLED_APPS setting like this:
 
 		INSTALLED_APPS = [
 			...
-			'staticpages',
+			'mdpages',
 		]
 
 2. Set the location of the directory that will contain the Markdown
-   files in settings with `STATICPAGES_CONTENT_DIR`:
+   files in settings with `MDPAGES_CONTENT_DIR`:
    
-		STATICPAGES_CONTENT_DIR = '{}/pages/content/'.format(BASE_DIR)
+		MDPAGES_CONTENT_DIR = '{}/pages/content/'.format(BASE_DIR)
 
 3. Add the template that will contain the Markdown generated content,
    you will have two variables available: `body` and `toc` (for the
    table of contents), for example create a template
-   `/templates/staticpages/page.html` with contents like:
+   `/templates/mdpages/page.html` with contents like:
    
 		{% extends "base.html" %}
 
@@ -43,14 +43,14 @@ file at `/pages/content/about.md`.
 		{% endblock %}
 
 	And add the template path to settings
-    `STATICPAGES_TEMPLATE_NAME`:
+    `MDPAGES_TEMPLATE_NAME`:
 	
-	    STATICPAGES_TEMPLATE_NAME = 'staticpages/page.html'
+	    MDPAGES_TEMPLATE_NAME = 'mdpages/page.html'
 
 4. Create a view using `staticages.views.StaticPageView` specifying
    the name of the Markdown file `md_file` and the `template_name`:
 
-		from staticpages.views import StaticPageView
+		from mdpages.views import MdPageView
 
 		class AboutView(StaticPageView):
 			md_file = 'language-learning.md'

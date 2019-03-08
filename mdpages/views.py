@@ -8,13 +8,13 @@ from django.utils.text import slugify
 from django.views.generic import TemplateView
 
 
-class StaticPageView(TemplateView):
-    template_name = settings.STATICPAGES_TEMPLATE_NAME
+class MdPageView(TemplateView):
+    template_name = settings.MDPAGES_TEMPLATE_NAME
     md_file = 'language-learning.md'
     
     def get_context_data(self, **kwargs):
         # load markdown file
-        f = open(os.path.join(settings.STATICPAGES_CONTENT_DIR, self.md_file))
+        f = open(os.path.join(settings.MDPAGES_CONTENT_DIR, self.md_file))
         file_content = f.read()
         f.close()
         

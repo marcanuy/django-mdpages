@@ -8,14 +8,14 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='django-staticpages',
+    name='django-mdpages',
     version='0.1',
     packages=find_packages(),
     include_package_data=True,
     license='MIT License',  # example license
     description='A simple Django app to generate pages from files.',
     long_description=README,
-    url='https://github.com/marcanuy/django-staticpages/',
+    url='https://github.com/marcanuy/django-mdpages/',
     author='Marcelo Canina',
     author_email='me@marcanuy.com',
     classifiers=[
@@ -34,8 +34,8 @@ setup(
     keywords='django static',
     project_urls={
         #'Documentation': 'https://packaging.python.org/tutorials/distributing-packages/',
-        'Source': 'https://github.com/marcanuy/django-staticpages/',
-        'Tracker': 'https://github.com/marcanuy/django-staticpages/issues',
+        'Source': 'https://github.com/marcanuy/django-mdpages/',
+        'Tracker': 'https://github.com/marcanuy/django-mdpages/issues',
     },
     install_requires=[
         'Django>=2.1',
