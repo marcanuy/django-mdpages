@@ -4,10 +4,8 @@ StaticPages
 
 Staticpages is a simple Django app to generate pages from Markdown files.
 
-You can create about pages or a blog based in static files without
-touching database.
-
-Detailed documentation is in the "docs" directory.
+Pages also can have a Table of Content automatically generated based
+on headings.
 
 Quick start
 -----------
