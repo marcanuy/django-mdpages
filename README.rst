@@ -6,6 +6,11 @@ Mdpages is a simple Django app to generate pages from Markdown files.
 Pages also can have a Table of Content automatically generated based
 on headings.
 
+Install
+-------
+
+To install `pip install django-mdpages`.
+
 Quick start
 -----------
 
@@ -84,3 +89,4 @@ Reference
 ---------
 
 - Markdown library https://python-markdown.github.io/reference/
+- PyPi https://pypi.org/project/django-mdpages/
