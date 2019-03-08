@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}{{title}}{%endblock%}
+{% block description %}{{description}}{%endblock%}
+
+{% block content %}
+<div class="container">
+    {{ toc|safe }}
+    <hr>
+    {{ body|safe }}
+</div>
+{% endblock %}

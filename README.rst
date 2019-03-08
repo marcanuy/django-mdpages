@@ -85,6 +85,12 @@ And add the template path to settings `MDPAGES_TEMPLATE_NAME`:
 	   path('about', AboutView.as_view()),	
    ]
 
+Example
+-------
+There is an example project using it at
+[exampleSite](https://github.com/marcanuy/django-mdpages/tree/master/exampleSite)
+that just displays an *About* page. 
+
 Reference
 ---------
 

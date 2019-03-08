@@ -1,0 +1,5 @@
+Django==2.1.7
+django-mdpages==0.2
+Markdown==3.0.1
+pkg-resources==0.0.0
+pytz==2018.9
