@@ -42,7 +42,7 @@ file at `/pages/content/about.md`.
 
 		{% endblock %}
 
-	And add the templatep path to settings
+	And add the template path to settings
     `STATICPAGES_TEMPLATE_NAME`:
 	
 	    STATICPAGES_TEMPLATE_NAME = 'staticpages/page.html'
