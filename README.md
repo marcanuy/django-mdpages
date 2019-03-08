@@ -47,12 +47,12 @@ file at `/pages/content/about.md`.
 	
 	    MDPAGES_TEMPLATE_NAME = 'mdpages/page.html'
 
-4. Create a view using `staticages.views.StaticPageView` specifying
+4. Create a view using `staticages.views.MdPageView` specifying
    the name of the Markdown file `md_file` and the `template_name`:
 
 		from mdpages.views import MdPageView
 
-		class AboutView(StaticPageView):
+		class AboutView(MdPageView):
 			md_file = 'language-learning.md'
 
 			# any kind of extra content used in your template
