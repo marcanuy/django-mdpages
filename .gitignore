@@ -1,0 +1,3 @@
+build/
+dist/
+django_mdpages.egg-info
