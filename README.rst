@@ -89,7 +89,7 @@ Example
 -------
 There is an example project using it at
 [exampleSite](https://github.com/marcanuy/django-mdpages/tree/master/exampleSite)
-that just displays an *About* page. 
+that just displays an *About* page from [about.md](https://github.com/marcanuy/django-mdpages/blob/master/exampleSite/pages/content/about.md).
 
 Reference
 ---------
