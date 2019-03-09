@@ -60,7 +60,7 @@ And add the template path to settings `MDPAGES_TEMPLATE_NAME`:
 	
    MDPAGES_TEMPLATE_NAME = 'mdpages/page.html'
 
-4. Create a view using `staticages.views.MdPageView` specifying
+4. Create a view using `mdpages.views.MdPageView` specifying
    the name of the Markdown file `md_file` and the `template_name`:
 
 .. code:: python
