@@ -10,7 +10,11 @@ on headings. Basically static pages from Markdown files.
 Install
 -------
 
-To install `pip install django-mdpages`.
+To install:
+
+.. code:: bash
+
+   pip install django-mdpages
 
 Quick start
 -----------
