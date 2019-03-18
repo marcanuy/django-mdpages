@@ -12,7 +12,7 @@ setup(
     version='0.2',
     packages=find_packages(),
     include_package_data=True,
-    license='MIT License',  # example license
+    license='MIT License',
     description='A simple Django app to generate pages from files.',
     long_description=README,
     url='https://github.com/marcanuy/django-mdpages/',
