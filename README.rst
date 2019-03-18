@@ -13,8 +13,10 @@ Why?
 This CBV is userful in these circunstances:
 
 - To generate pages part of the website like the typical About page
-- You want those page in Markdown and them to be naturally part of a `base.html` layout.
-- You want them in version control along website code.
+- You want those pages
+  - in plain Markdown
+  - to be naturally part of the website layout (e.g.: extends `base.html`).
+  - to be in version control along website code.
 
 Install
 -------
