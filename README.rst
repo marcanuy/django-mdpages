@@ -7,6 +7,15 @@ files.
 Pages also can have a Table of Content automatically generated based
 on headings. Basically static pages from Markdown files.
 
+Why?
+----
+
+This CBV is userful in these circunstances:
+
+- To generate pages part of the website like the typical About page
+- You want those page in Markdown and them to be naturally part of a `base.html` layout.
+- You want them in version control along website code.
+
 Install
 -------
 
